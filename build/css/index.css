@@ -1,0 +1,103 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*------------------------------------------------*/
+header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  color: whitesmoke; }
+  header h1 {
+    font-size: 50px; }
+
+body {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center; }
+  body article {
+    background-color: whitesmoke; }
+
+.career {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 420px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .career div {
+    margin-top: 50px; }
+  .career h1 {
+    font-size: 20px; }
+  .career h2 {
+    font-size: 18px;
+    text-decoration: line-through; }
+
+.hobbies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .hobbies div {
+    width: 33.3%; }
+  .hobbies h2 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .hobbies img {
+    width: 100%; }
