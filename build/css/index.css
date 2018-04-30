@@ -83,21 +83,44 @@ body {
   .career h2 {
     font-size: 18px;
     text-decoration: line-through; }
+  .career h3 {
+    font-size: 36px;
+    color: indigo; }
 
-.hobbies {
+.titles {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 300px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
-  .hobbies div {
+          flex-direction: row;
+  width: 100%; }
+  .titles h2 {
     width: 33.3%; }
-  .hobbies h2 {
-    font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px; }
-  .hobbies img {
-    width: 100%; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .container .cycling {
+    width: 33%; }
+    .container .cycling img {
+      max-width: 100%;
+      height: auto; }
+  .container .camping {
+    width: 33%; }
+    .container .camping img {
+      max-width: 100%;
+      height: auto; }
+  .container .fishing {
+    width: 33%; }
+    .container .fishing img {
+      max-width: 100%;
+      height: auto; }

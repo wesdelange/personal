@@ -79,20 +79,45 @@ body {
         font-size: 18px;
         text-decoration: line-through;
     }
+    h3 {
+        font-size: 36px;
+        color: indigo;
+    }
 }
 .hobbies {
+
+}
+.titles {
     display: flex;
-    height: 300px;
     flex-direction: row;
-    div {
+    width: 100%;
+    h2 {
         width: 33.3%;
     }
-    h2 {
-        font-size: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .cycling {
+        width: 33%;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     }
-    img {
-        width: 100%;
+    .camping {
+        width: 33%;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    .fishing {
+        width: 33%;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     }
 }
