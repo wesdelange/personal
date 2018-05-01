@@ -50,12 +50,12 @@ table {
 header {
     align-items: center;
     display: flex;
-    height: 100px;
+    height: 150px;
     justify-content: center;
     background-color: black;
     color: whitesmoke;
     h1 {
-        font-size: 50px;
+        font-size: 80px;
     }
 }
 body {
@@ -67,57 +67,76 @@ body {
 }
 .career {
     display: flex;
+    flex-direction: row;
     height: 420px;
     justify-content: center;
     div {
         margin-top: 50px;
     }
     h1 {
-        font-size: 20px;
+        font-size: 40px;
     }
     h2 {
-        font-size: 18px;
-        text-decoration: line-through;
-    }
-    h3 {
-        font-size: 36px;
+        font-size: 50px;
         color: indigo;
     }
+    h3 {
+        font-size: 30px;
+    }
+    p {
+        margin: 30px 100px 0px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 20px;
+    }
 }
-.hobbies {
-
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.preAd {
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 .titles {
     display: flex;
     flex-direction: row;
     width: 100%;
     h2 {
-        width: 33.3%;
+        width: 50%;
+        font-size: 40px;
+        color: indigo;
+        margin-bottom: 20px;
     }
 }
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    .cycling {
-        width: 33%;
+    .owl-carousel {
+        width: 49%;
         img {
-            max-width: 100%;
+            display: block;
+            width: 100%;
             height: auto;
         }
     }
-    .camping {
-        width: 33%;
-        img {
-            max-width: 100%;
-            height: auto;
-        }
+}
+footer {
+    font-family: 'Open Sans Condensed', sans-serif;
+    align-items: center;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    background-color: black;
+    color: whitesmoke;
+    h1 {
+        font-size: 25px;
+        margin-bottom: 5px;
     }
-    .fishing {
-        width: 33%;
-        img {
-            max-width: 100%;
-            height: auto;
-        }
+    h2 {
+        font-size: 20px;
     }
 }

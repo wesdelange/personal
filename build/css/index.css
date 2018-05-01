@@ -53,14 +53,14 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100px;
+  height: 150px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   background-color: black;
   color: whitesmoke; }
   header h1 {
-    font-size: 50px; }
+    font-size: 80px; }
 
 body {
   font-family: 'Permanent Marker', cursive;
@@ -72,6 +72,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   height: 420px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -79,13 +83,33 @@ body {
   .career div {
     margin-top: 50px; }
   .career h1 {
-    font-size: 20px; }
+    font-size: 40px; }
   .career h2 {
-    font-size: 18px;
-    text-decoration: line-through; }
-  .career h3 {
-    font-size: 36px;
+    font-size: 50px;
     color: indigo; }
+  .career h3 {
+    font-size: 30px; }
+  .career p {
+    margin: 30px 100px 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px; }
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  margin-bottom: 100px; }
+
+.preAd {
+  font-size: 40px;
+  margin-bottom: 20px; }
 
 .titles {
   display: -webkit-box;
@@ -97,7 +121,10 @@ body {
           flex-direction: row;
   width: 100%; }
   .titles h2 {
-    width: 33.3%; }
+    width: 50%;
+    font-size: 40px;
+    color: indigo;
+    margin-bottom: 20px; }
 
 .container {
   display: -webkit-box;
@@ -109,18 +136,29 @@ body {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
-  .container .cycling {
-    width: 33%; }
-    .container .cycling img {
-      max-width: 100%;
+  .container .owl-carousel {
+    width: 49%; }
+    .container .owl-carousel img {
+      display: block;
+      width: 100%;
       height: auto; }
-  .container .camping {
-    width: 33%; }
-    .container .camping img {
-      max-width: 100%;
-      height: auto; }
-  .container .fishing {
-    width: 33%; }
-    .container .fishing img {
-      max-width: 100%;
-      height: auto; }
+
+footer {
+  font-family: 'Open Sans Condensed', sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  color: whitesmoke; }
+  footer h1 {
+    font-size: 25px;
+    margin-bottom: 5px; }
+  footer h2 {
+    font-size: 20px; }
