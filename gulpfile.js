@@ -62,4 +62,4 @@ gulp.task("sass", function() {
     .on('change', browserSync.reload);
 });
 
-gulp.task("default", gulp.parallel("sass", "scripts"));
+gulp.task("default", gulp.parallel("browser-sync", "watch"));
