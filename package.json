@@ -33,6 +33,8 @@
     "run-sequence": "^2.2.1"
   },
   "dependencies": {
+    "imagemin-jpeg-recompress": "^5.1.0",
+    "imagemin-mozjpeg": "^7.0.0",
     "owl.carousel": "^2.3.4",
     "slick-carousel": "^1.8.1"
   }
