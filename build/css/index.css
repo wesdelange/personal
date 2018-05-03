@@ -63,6 +63,8 @@ header {
   padding-right: 20px; }
   header h1 {
     font-size: 80px; }
+  header img {
+    height: 150px; }
 
 body {
   font-family: 'Permanent Marker', cursive;
@@ -162,13 +164,15 @@ footer {
   display: -ms-flexbox;
   display: flex;
   height: 150px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: black;
   color: whitesmoke; }
   footer h1 {
     font-size: 25px;
     margin-bottom: 5px; }
-  footer h2 {
-    font-size: 20px; }
+    footer h1 span {
+      font-size: 20px; }
+  footer img {
+    height: 150px; }
