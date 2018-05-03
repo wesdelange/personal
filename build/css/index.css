@@ -54,11 +54,13 @@ header {
   display: -ms-flexbox;
   display: flex;
   height: 150px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: black;
-  color: whitesmoke; }
+  color: whitesmoke;
+  padding-left: 20px;
+  padding-right: 20px; }
   header h1 {
     font-size: 80px; }
 
@@ -67,6 +69,9 @@ body {
   text-align: center; }
   body article {
     background-color: whitesmoke; }
+  body p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px; }
 
 .career {
   display: -webkit-box;
@@ -90,9 +95,7 @@ body {
   .career h3 {
     font-size: 30px; }
   .career p {
-    margin: 30px 100px 0px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px; }
+    margin: 30px 100px 0px; }
 
 .icons {
   display: -webkit-box;
@@ -119,11 +122,18 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 100%; }
   .titles h2 {
     width: 50%;
     font-size: 40px;
     color: indigo;
+    margin-bottom: 20px; }
+  .titles p {
+    width: 45%;
     margin-bottom: 20px; }
 
 .container {
