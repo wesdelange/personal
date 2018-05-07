@@ -83,7 +83,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  height: 420px;
+  height: 320px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -98,6 +98,33 @@ body {
     font-size: 30px; }
   .career p {
     margin: 30px 100px 0px; }
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 100px; }
+  .projects h1 {
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 10px; }
+  .projects div {
+    width: 50%; }
+    .projects div h1 {
+      font-size: 20px;
+      margin-bottom: 10px; }
+  .projects img {
+    width: 500px;
+    height: auto;
+    margin-bottom: 10px; }
+  .projects p {
+    margin-bottom: 10px; }
 
 .icons {
   display: -webkit-box;

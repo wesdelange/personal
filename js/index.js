@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(() => {
   $(".owl-carousel").owlCarousel({
     autoplay : 3000,
     loop: true,
